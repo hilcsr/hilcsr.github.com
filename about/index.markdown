@@ -3,15 +3,13 @@ title: about
 layout: default
 ---
 
-![Moi](https://twimg0-a.akamaihd.net/profile_images/2108530362/R6yyBITh)
+![Hilary Roberts](http://www.startupsummit2012.com/images/speakers/hilary_roberts.png)
 
 
-I am the CTO and co-founder of [Float](http://floatapp.com), a web-app that helps small business owners understand, monitor and forecast their cash-flow.
+I am a Product Manager at [Skyscanner](http://www.skyscanner.net), focusing on B2B products including the Skyscanner API.
 
-I live in “sunny” Edinburgh with my wonderful wife, [@hilcsr](http://twitter.com/hilcsr).
+I also organise ProductTank Edinburgh, a monthly meetup for people interested in designing and building great web and mobile products.
 
-You can find me on [twitter](http://twitter.com/philip_roberts), [github](http://github.com/latentflip), or email, phil at latentflip dot com.
+I live in Edinburgh with my husband [Phil](http://twitter.com/philiproberts) and Hogs Boson, our pygmy hedgehog.
 
-Please feel free to get in touch*.
-
-\* recruiters etc need not apply
+You can find me on [twitter](http://twitter.com/hilcsr).
