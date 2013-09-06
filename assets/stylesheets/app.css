@@ -28,8 +28,8 @@ blockquote {
   padding-left: 0.5em; }
 
 a, a:visited {
-  color: #DE6600;
-  color: #D0002A; }
+  color: #CFF09E;
+  color: #79BD9A; }
   a:hover, a:visited:hover {
     text-decoration: underline; }
 
@@ -1418,7 +1418,7 @@ main.blog, .topbar-inner {
   overflow: hidden; }
 
 .topbar {
-  background: #D0002A;
+  background: #3B8686;
   color: white;
   line-height: 1; }
   .topbar .topbar-inner {
