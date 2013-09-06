@@ -5,7 +5,6 @@ layout: default
 
 ![Hilary Roberts](http://www.startupsummit2012.com/images/speakers/hilary_roberts.png)
 
-
 I am a Product Manager at [Skyscanner](http://www.skyscanner.net), focusing on B2B products including the Skyscanner API.
 
 I also organise ProductTank Edinburgh, a monthly meetup for people interested in designing and building great web and mobile products.
