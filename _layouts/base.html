@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width">
     <title>{{ page.title }}</title>
     <link rel='stylesheet' href='/assets/stylesheets/app.css'>
+    <link rel="alternate" type="application/rss+xml" title="Essays RSS Feed" href="{{ site.url }}/essays.xml">
 
     <script src='/assets/javascripts/jquery.js'></script>
     <script src='/assets/javascripts/underscore-min.js'></script>
@@ -20,6 +21,7 @@
           <a href="/about">About</a>
           <a href="/">Blog</a>
           <a href="/hacks">Hacks</a>
+          <a href="#" onclick="(function(){var z=document.createElement('script');z.src='https://www.subtome.com/load.js';document.body.appendChild(z);})()">Follow</a>
         </nav>
       </div>
     </header>

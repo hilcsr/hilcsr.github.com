@@ -2,13 +2,14 @@
 layout: default
 ---
 
-<div ng-controller='PostCtrl'>
+<div ng-controller='PostCtrl' ng-init='init({executable: {{ page.executable}} })' >
   {{ content }}
+  <div id='hi5'></div>
 </div>
 
 <nav class="posts">
   {% if page.previous %}
-    <a href="/{{ page.previous.url }}">
+    <a href="{{ page.previous.url }}">
       <span class="icon icon-arrow-left"></span>
       <span class=hidden>older</span>
     </a>
@@ -20,9 +21,24 @@ layout: default
   </a>
 
   {% if page.next %}
-    <a href="/{{ page.next.url }}">
+    <a href="{{ page.next.url }}">
       <span class=hidden>newer</span>
       <span class="icon icon-arrow-right"></span>
     </a>
   {% endif %}
 </nav>
+
+<div class='about'>
+  <!--<a href='/about' class='info'><i class='icon-info-sign'></i></a>-->
+  <a href='http://twitter.com/philip_roberts'><i class='icon-twitter'></i></a>
+  <a href='http://github.com/latentflip'><i class='icon-github'></i></a>
+  <a href='/essays.xml'><i class='icon-rss'></i></a>
+</div>
+
+<script src='/assets/hi5/hi5.bundle.js'></script>
+<script>
+  Hi5({
+    placement: 'right',
+    assetPath: '/assets/hi5/'
+  })
+</script>
