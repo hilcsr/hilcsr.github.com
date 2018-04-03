@@ -44,9 +44,18 @@ a:hover{
 
 }
 
-.name {
+h1 {
 	text-align: center;
-	color: #333333;
+	color: #222222;
+	margin: 25px 0 0 0;
+}
+
+h2 {
+	text-align: center;
+	color: #444444;
+	font-weight: 300;
+	font-size: 2em;
+	margin: 0 0 25px 0;
 }
 
 .intro{
@@ -57,16 +66,11 @@ a:hover{
 }
 
 
-/*.summary-background {
-	margin: 0;
-	background-color: #EEEEEE;
-}*/
-
 .summary{
 	width: 90%;
 	max-width: 600px;
 	margin: 0 auto;
-	color: #555555;
+	color: #444444;
 	font-size: 18px;
 	line-height: 1.5;
 }
