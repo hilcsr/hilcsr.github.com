@@ -1,6 +1,17 @@
 h1 {
-	margin: 25px 0;
+	text-align: center;
+	color: #222222;
+	margin: 25px 0 0 0;
 }
+
+h2 {
+	text-align: center;
+	color: #444444;
+	font-weight: 300;
+	font-size: 2em;
+	margin: 0 0 25px 0;
+}
+
 
 body {
 	/*padding-top: 20px;*/
@@ -44,19 +55,6 @@ a:hover{
 
 }
 
-h1 {
-	text-align: center;
-	color: #222222;
-	margin: 25px 0 0 0;
-}
-
-h2 {
-	text-align: center;
-	color: #444444;
-	font-weight: 300;
-	font-size: 2em;
-	margin: 0 0 25px 0;
-}
 
 .intro{
 	text-align: center;
